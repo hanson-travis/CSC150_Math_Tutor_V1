@@ -1,13 +1,13 @@
 # Silly Math Tutor — Release v0.0.0
 
-A tiny console program that quizzes the user with a few **addition** problems. Designed to leverage our knowledge gained while working through Chapter(s) 1 (and 2?).
+A tiny console program that quizzes the user with a few **addition** problems. Designed to leverage our knowledge gained while working through Chapters 1 and 2 of ZyBooksC++.
 
 ## Program behavior (MVP)
 
 * Fixed set of **5 addition questions** (pre-chosen numbers; no randomness).
 * Entire program is written in **one file** and **one function** (`main()`), organized with big section comments (see “Code sections” below).
 * Assumes the user types **integers**.
-* No error handling exists at this point
+* No error handling exists at this point.
 
 ## Code sections (plan for `main()`)
 
