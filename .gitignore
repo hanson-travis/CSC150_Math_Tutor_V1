@@ -1,0 +1,25 @@
+# Build output (CMake & MSVC)
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Visual Studio generator files
+*.sln
+*.vcxproj*
+*.obj
+*.pdb
+*.ilk
+
+# IDE settings
+.idea/
+.vscode/
+
+# Binaries (just in case)
+*.exe
+*.dll
+*.lib
+
+# OS cruft
+.DS_Store
+Thumbs.db
