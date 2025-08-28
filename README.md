@@ -1,15 +1,21 @@
 # Silly Math Tutor — Release v0.0.0
 
-A tiny console program that quizzes the user with a few **addition** problems. Designed to leverage our knowledge gained while working through Chapters 1 and 2 of ZyBooksC++.
+A tiny console program that quizzes the user with a few **addition** problems. Designed
+to leverage our knowledge gained while working through Chapters 1 and 2 of ZyBooksC++.
 
-## Program behavior (MVP)
+## ToDo
+* Update this README after everything is complete.
+* Remove all of the done items once done.  Leave the ToDo section for future use.
+
+## Program behavior (MVP) //ToDo this section needs updating
 
 * Fixed set of **5 addition questions** (pre-chosen numbers; no randomness).
-* Entire program is written in **one file** and **one function** (`main()`), organized with big section comments (see “Code sections” below).
+* Entire program is written in **one file** and **one function** (`main()`), organized 
+  with big section comments (see “Code sections” below).
 * Assumes the user types **integers**.
 * No error handling exists at this point.
 
-## Code sections (plan for `main()`)
+## Code sections (plan for `main()`)  // ToDo this section needs updating
 
 1. **Header comment & declarations**
 
@@ -25,7 +31,7 @@ A tiny console program that quizzes the user with a few **addition** problems. D
 
 > Tip: Use big, consistent comment banners like `// ===== 3) Question 1 =====` so each section reads like a mini-routine.
 
-## Prompt script (exact wording)
+## Prompt script (exact wording) // ToDo this section needs updating.
 
 You can copy these lines directly into your output statements to keep results stable:
 
@@ -107,23 +113,33 @@ You answered 4 out of 5 correctly. Nice work!
 ## Repository structure
 
 ```
-.
-├── main.cpp         # Single-file program, all code in main()
-├── README.md        # This file
-├── PeerReview/      # Peer feedback docs (if required)
-└── Reflection/      # “Good/Bad/Ugly” or similar write-up (if required)
+CSC150_Math_Tutor_V1/
+├─ src/
+│  └─ main.cpp                 ← all code lives here (Ch.1–2)
+├─ docs/
+│  └─ Peer Feedback - Template.docx  (or your filled form)
+├─ CMakeLists.txt
+├─ README.md
+└─ .gitignore
+
 ```
 
 ---
 
-## Collaboration & versioning (Double check this - specifically versioning and branch naming)
+## Source Control Collaboration
 
 * **Branch naming**: `feature/prompt-script`, `feature/q1-q5`, `chore/readme-sample-run`
 * **Commit messages**: small, clear, imperative (“Add greeting and instructions”)
 * **Pull Requests**: title = the task; description = what changed + how to test
-* **Release tag**: `v1.0.0` after testing and polish
 
-> If you and a partner keep separate repos, use a shared **GitHub Project (Board/Table)** at the profile level and mark which repo each task belongs to.
+##  Versioning
+* Use **Semantic Versioning**
+  * Example `v1.1.0` (vMajor.Minor.Update)
+    * MAJOR - Breaking changes (For us, lets consider them major updates or the final stable release for the assignment)
+    * MINOR - Intermittent Changes that incrementally move us toward the release
+    * UPDATE - bug fixes or slight adjustments to previously checked in code. Does not add new capabilities.
+* The first release considered to be "done" is `v1.0.0`.
+
 
 ---
 
