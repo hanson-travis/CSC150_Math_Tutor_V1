@@ -23,8 +23,13 @@ int main() {
 
 
     // Display a welcome screen
-    cout << "New Hello, World!" << endl; // delete this text and replace as needed.
-
+    cout << "******************************************************************************" << endl; // delete this text and replace as needed.
+    cout << " _____                    _            _____         _                     _" << endl;
+    cout << " |  __|  ___    ___    __| |   __ _   |  __| __ ___ (_)  ____  _____    __| |" << endl;
+    cout << " | |_   / _ |  / _ | /  _` |  / _` |  | |_   | '__/ | | / _ | |  _  | /  _' |" << endl;
+    cout << " |  _|  |__/_  | __/ | (_| |  | (_||  |  _|  | |    | | |__/_ | | | | | (_| |" << endl;
+    cout << " |_|    |___|  |___| |___,_|  |__,_|  |_|    |_|    |_| |___| |_| |_| |___,_|" << endl;
+    cout << "******************************************************************************" << endl;
     // Share some fun trivia facts
 
     // Interact with the user
