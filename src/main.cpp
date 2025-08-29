@@ -23,7 +23,7 @@ int main() {
 
 
     // Display a welcome screen
-    cout << "Hello, World!" << endl; // delete this text and replace as needed.
+    cout << "New Hello, World!" << endl; // delete this text and replace as needed.
 
     // Share some fun trivia facts
 
